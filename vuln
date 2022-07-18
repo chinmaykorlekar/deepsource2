@@ -1,0 +1,8 @@
+compute = input('\nYour expression? => ')
+if not compute :
+print ("No input")
+else:
+if validate(compute):
+print ("Result =", eval(comp))
+else:
+print ("Error")
